@@ -1,0 +1,27 @@
+{
+  "name": "marionettejs-requirejs",
+  "version": "1.0.0",
+  "description": "MarionetteJS web app using RequireJS as module management",
+  "main": "require-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayago/marionette-requirejs.git"
+  },
+  "keywords": [
+    "marionettejs",
+    "requirejs"
+  ],
+  "author": "Adrian Yago",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayago/marionette-requirejs/issues"
+  },
+  "homepage": "https://github.com/ayago/marionette-requirejs#readme",
+  "devDependencies": {
+    "express": "^4.19.2"
+  }
+}
