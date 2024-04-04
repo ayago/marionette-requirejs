@@ -10,7 +10,7 @@ When index.html is served, the script require-config.js is executed. This javasc
 * `paths` defines map module names to specific file paths or URLs. It allows you to define custom aliases for module names and specify where to load modules from.
 * `shims` is used to configure dependencies for scripts that do not support AMD (Asynchronous Module Definition) or other module formats.
 
-After the modules are defined the App is loaded by 'importing' main in `require-config.js`
+After the modules are defined the App is loaded by 'importing' main module (`main.js`) in `require-config.js`
 
 ## A word regarding usage of `npm` and `express`
 
