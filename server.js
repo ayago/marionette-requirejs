@@ -6,17 +6,8 @@ const port = 3000;
 
 app.use(express.static(path.join(__dirname, 'src')));
 
-// Set content type for JavaScript files
-app.use((req, res, next) => {
-  if (req.url.endsWith('.js')) {
-    res.set('Content-Type', 'application/javascript');
-  }
-  next();
-});
-
 // Explicitly serve index.html
 app.get("/", (req, res) => {
-  res.set("Content-Type", "text/html");
   res.sendFile(path.join(__dirname, "index.html"));
 });
 

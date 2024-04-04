@@ -1,5 +1,5 @@
 require.config({
-    baseUrl: './src',
+    baseUrl: './',
     paths: {
       'jquery': 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min',
       'underscore': 'https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.13.1/underscore-min',
@@ -33,6 +33,6 @@ require.config({
     }
 });
 
-require(['main'], function(App){
+define(['main'], function(App){
     App.start();
 });
