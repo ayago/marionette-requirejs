@@ -1,4 +1,4 @@
-# MarionetteJS with Webpack
+# MarionetteJS with RequireJS
 
 MarionetteJS web app project skeleton that uses RequireJS for module definition and dependency management. The former follows the AMD (Asynchronous Module Definition) specification. It defines an application programming interface that defines code modules and their dependencies, and loads them asynchronously if desired.
 
