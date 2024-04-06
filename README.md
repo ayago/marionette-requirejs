@@ -4,6 +4,8 @@ MarionetteJS web app project skeleton that uses RequireJS for module definition 
 
 ## How to execute this project
 
+Before trying out this project, npm and NodeJS should be installed in the target machine.
+
 * Clone/Download the project
 * Execute `npm install`
 * Execute `node server.js`. Visit the page at localhost:3000
