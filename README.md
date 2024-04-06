@@ -27,6 +27,10 @@ After the modules are defined the App is loaded by 'importing' main module (`mai
     * `backbone.radio` is loaded from the cdn. It's a dependency of `marionette`.
         * `marionette` is loaded from the cdn. It's a dependency of `main.js` and `views/sample-item/sample-item.view.js`.
 
+### MarionetteJS usage in this project
+
+MarionetteJS is an opinionated framework for BackboneJS. It can be used to create Single Page Applications (SPA). This project can be used as a skeletion or starter for such projects. It was also used to demonstrate how the individual components via Views can come together through RequireJS.
+
 ## A word regarding usage of `npm` and `express`
 
 ExpressJS was used to serve the static files (e.g. App server)
