@@ -1,4 +1,4 @@
-define(["marionette", "views/sample-item/sample-item.view"], function (Marionette, ItemView) {
+define([ "views/sample-item/sample-item.view", "marionette"], function (ItemView, Marionette) {
   var app = new Marionette.Application({
     region: "#app",
     onStart: function () {
